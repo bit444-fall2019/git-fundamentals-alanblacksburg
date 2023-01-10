@@ -11,6 +11,9 @@
         <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="456,279,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,-0.402" Width="84"/>
         <Label Content="Your favorite language:" HorizontalAlignment="Left" Margin="41,126,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="LanguageTextbox" HorizontalAlignment="Left" Margin="269,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" AutomationProperties.HelpText="Enter a programming language name here" ToolTip="Enter a language name here"/>
+        <Menu Margin="0,0,0,399">
+            <MenuItem Header="&amp;File" Click="MenuItem_Click"/>
+        </Menu>
 
     </Grid>
 </Window>
